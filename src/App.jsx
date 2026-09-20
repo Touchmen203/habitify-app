@@ -5,13 +5,18 @@ import viteLogo from './assets/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+	const [count, setCount] = useState(0)
 
-  return (
-    <>
-      hello habitify from arif
-    </>
-  )
+	return (
+		<>
+			<h1>Arif Habitify Login</h1>
+			<form>
+				<input type='text' placeholder='name' /> <br/>
+				<input type='text' placeholder='password' /><br />
+				<input type="submit" value={"Sign in"} />
+			</form>
+		</>
+	)
 }
 
 export default App
